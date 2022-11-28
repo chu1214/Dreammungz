@@ -1,12 +1,8 @@
-# 최종 README
-
-Status: 발표 및 문서
-
 # 🐶**드림멍즈- NFT 기반 게임 플랫폼**
 
-![Logo](/image/Logo.png)
+![Untitled](readme/Untitled.png)
 
-## **[드림멍즈** 링크](https://j7a605.p.ssafy.io/)
+## [**드림멍즈** 링크](https://j7a605.p.ssafy.io/)
 
 ## **[UCC 링크 - 소개 영상 보기](https://www.youtube.com/watch?v=eVtlH42FHsQ)**
 
@@ -87,6 +83,12 @@ Status: 발표 및 문서
 
   - 메타마스크 로그인: Web3.js를 사용하여 메타마스크 로그인 구현
   - 닉네임 수정 기능
+
+- **메인페이지**
+
+  - 튜토리얼로 바로가기 할 수 있습니다.
+  - 업데이트 내용 확인, UCC 소개합니다.
+  - 발행된 NFT 5개를 소개합니다.
 
 - **게임 컨텐츠**
 
@@ -209,16 +211,87 @@ Status: 발표 및 문서
 
 ## 🏗️ **프로젝트 파일 구조**
 
-### **Back**
+### **Backend**
 
 ```markdown
-
+backend
+├── gradle
+│   └── wrapper
+└── src
+├── main
+│   ├── java
+│   │   └── dreammungz
+│   │   ├── api
+│   │   │   ├── controller
+│   │   │   ├── dto
+│   │   │   │   ├── achievement
+│   │   │   │   ├── auth
+│   │   │   │   ├── game
+│   │   │   │   ├── nft
+│   │   │   │   │   ├── end
+│   │   │   │   │   └── list
+│   │   │   │   └── trade
+│   │   │   └── service
+│   │   ├── config
+│   │   │   ├── auth
+│   │   │   ├── jwt
+│   │   │   ├── querydsl
+│   │   │   └── swagger
+│   │   ├── db
+│   │   │   ├── entity
+│   │   │   └── repository
+│   │   ├── enums
+│   │   ├── exception
+│   │   ├── filter
+│   │   └── interceptor
+│   └── resources
+└── test
+└── java
+└── dreammungz
 ```
 
-### Front
+### Frontend
 
 ```markdown
-
+frontend
+├── public
+│   ├── assets
+│   ├── audios
+│   └── images
+└── src
+├── api
+├── assets
+├── components
+│   ├── achievement
+│   ├── button
+│   ├── carousel
+│   ├── content
+│   ├── filter
+│   ├── game
+│   ├── login
+│   ├── modal
+│   ├── museum
+│   ├── music
+│   ├── navbar
+│   ├── nftDetail
+│   ├── nftHistory
+│   ├── nftInfo
+│   ├── nftList
+│   ├── pagination
+│   ├── spinner
+│   ├── tab
+│   ├── tutorial
+│   └── userInfo
+├── pages
+├── recoil
+│   ├── game
+│   ├── list
+│   ├── member
+│   ├── music
+│   ├── tooltip
+│   └── trade
+├── types
+└── utils
 ```
 
 ---
@@ -245,15 +318,15 @@ Status: 발표 및 문서
 
 ## **✔ 프로젝트 산출물**
 
-[포팅매뉴얼](https://lab.ssafy.com/s07-blockchain-nft-sub2/S07P22A605/-/blob/main/exec/%ED%8F%AC%ED%8C%85%EB%A7%A4%EB%89%B4%EC%96%BC_%EB%93%9C%EB%A6%BC%EB%A9%8D%EC%A6%88.pdf)
+[포팅매뉴얼](https://www.notion.so/f2621668a9004c909bb7f6ecfb975649)
 
-[ERD](https://lab.ssafy.com/s07-blockchain-nft-sub2/S07P22A605/-/blob/main/exec/ERD.PNG)
+[ERD](https://www.notion.so/ERD-e02b1dcb36e942e59e2a5be24786635f)
 
-[아키텍처](https://lab.ssafy.com/s07-blockchain-nft-sub2/S07P22A605/-/blob/main/exec/%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.PNG)
+[아키텍처](https://www.notion.so/2fb39de39f3f44dc9997ecdbdcf676b9)
 
 [기능 명세서](https://www.notion.so/7f6703cf10184b979436e2e5ab972132)
 
-[시연시나리오](https://lab.ssafy.com/s07-blockchain-nft-sub2/S07P22A605/-/blob/main/exec/%EC%8B%9C%EC%97%B0%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4.pdf)
+[시연시나리오](https://www.notion.so/0e0632c9dc83497da428aaa058cd63f1)
 
 [와이어프레임](https://www.notion.so/2798cff61c5a4844917d29a3b317f3ae)
 
@@ -263,8 +336,90 @@ Status: 발표 및 문서
 
 ### 로그인
 
+- 메타마스크 로그인을 진행하며 MUNG 토큰을 추가합니다.
+  ![login.gif](readme/login.gif)
+
+### 메인 페이지
+
+- 튜토리얼 바로가기, 업데이트 내용 확인, 발행된 NFT 를 구경할 수 있습니다.
+  ![mainpage.gif](readme/mainpage.gif)
+
 ### 게임 컨텐츠
+
+- 게임에 등장하는 모든 스토리와 삽화를 구경할 수 있습니다.
+  ![contents.gif](readme/contents.gif)
 
 ### 튜토리얼
 
-###
+- 로그인, 게임, 거래 튜토리얼을 통해 서비스를 이용하는데 필요한 정보를 제공합니다.
+  ![tutorial.gif](readme/tutorial.gif)
+
+### 게임
+
+- **게임 시작**
+
+  - 아기 강아지 모드 - 100 MUNG 을 지불하여 스탯이 0인 상태로 시작합니다.
+  - 웨딩 모드 - 부모 NFT의 능력치를 합산한 스탯을 가진채 시작합니다.
+    ![Untitled](readme/Untitled%201.png)
+    ![Untitled](readme/Untitled%202.png)
+
+- **게임 진행**
+  - 게임을 진행하며 다양한 선택지를 선택하며 능력치를 올리거나 내리며 강아지를 육성할 수 있습니다.
+  - 게임이 시작되면 자동으로 테마곡이 진행됩니다.
+    ![game-play.gif](readme/game-play.gif)
+- **게임 엔딩**
+  - NFT 민팅을 진행하며 지금까지 거쳐온 스토리를 볼 수 있는 엔딩 크레딧이 있습니다.
+  - 민팅이 완료되면 강아지 구경 탭으로 이동합니다.
+    ![game-ending.gif](readme/game-ending.gif)
+
+### 마이페이지
+
+- **보유 NFT**
+
+  - 본인이 소유한 NFT를 볼 수 있습니다.
+    ![mypage-mynft.gif](readme/mypage-mynft.gif)
+
+- **업적**
+  - 현재까지 얻었던 직업과 최고 등급을 볼 수 있습니다.
+  - 얻지 못한 직업은 자물쇠로 잠겨있습니다.
+    ![mypage-achievements.gif](readme/mypage-achievements.gif)
+- **박물관**
+
+  - 3D NFT 전시관을 이용할 수 있으며 가장 등급이 높은 6개의 NFT가 액자에 걸려있습니다.
+  - 본인 뿐만 아니라 다양한 사람들이 구경할 수 있습니다.
+    ![mypage-museum.gif](readme/mypage-museum.gif)
+
+- **거래 & 제안 내역**
+  - 본인이 구매 or 판매한 NFT 거래 기록 및 제안 기록을 볼 수 있습니다.
+    ![mypage-tradelist.png](readme/mypage-tradelist.png)
+
+### 거래
+
+- 주로 NFT 상세페이지에서 이루어집니다.
+- NFT 특징, 거래 이력, 가격 제안 이력을 확인할 수 있습니다.
+
+- **판매등록**
+
+  - 즉시 구매 가격과 가격 제안 여부를 설정 한 후 판매 등록을 할 수 있습니다.
+    ![Untitled](readme/Untitled%203.png)
+
+- **판매 중단**
+  - NFT 판매자는 판매 중지를 할 수 있습니다.
+    ![Untitled](readme/Untitled%204.png)
+- **즉시구매와 가격 제안하기**
+  - NFT를 구매하고 싶을 경우 판매자가 설정한 가격을 지불하여 즉시 구매 하거나 판매자에게 판매 가격을 제안할 수 있습니다. 제안 또한 즉시 구매와 마찬가지로 제안한 가격을 지불합니다.
+    ![Untitled](readme/Untitled%205.png)
+- **제안 취소**
+
+  - 본인이 가격 제안한 내역을 ❌ 버튼을 클릭하여 취소할 수 있습니다.
+  - 취소 할 경우 가격 제안할 때 소비되었던 MUNG 토큰을 환불 받습니다.
+    ![Untitled](readme/Untitled%206.png)
+
+- **제안 채택**
+
+  - 판매자의 경우 원하는 제안의 ✅ 버튼을 클릭해서 제안을 수락할 수 있습니다.
+    ![Untitled](readme/Untitled%207.png)
+
+- **환불 받기**
+  - 마이 페이지 내의 제안 내역 탭에서 **환불 가능** 을 클릭하여 환불을 받을 수 있습니다.
+  ![Untitled](readme/Untitled%208.png)
