@@ -360,13 +360,14 @@ frontend
 
   - 아기 강아지 모드 - 100 MUNG 을 지불하여 스탯이 0인 상태로 시작합니다.
   - 웨딩 모드 - 부모 NFT의 능력치를 합산한 스탯을 가진채 시작합니다.
-    ![Untitled](readme/Untitled%201.png)
-    ![Untitled](readme/Untitled%202.png)
+    ![Untitled](readme/Untitled_1.png)
+    ![Untitled](readme/Untitled_2.png)
 
 - **게임 진행**
   - 게임을 진행하며 다양한 선택지를 선택하며 능력치를 올리거나 내리며 강아지를 육성할 수 있습니다.
   - 게임이 시작되면 자동으로 테마곡이 진행됩니다.
     ![game-play.gif](readme/game-play.gif)
+
 - **게임 엔딩**
   - NFT 민팅을 진행하며 지금까지 거쳐온 스토리를 볼 수 있는 엔딩 크레딧이 있습니다.
   - 민팅이 완료되면 강아지 구경 탭으로 이동합니다.
@@ -383,6 +384,7 @@ frontend
   - 현재까지 얻었던 직업과 최고 등급을 볼 수 있습니다.
   - 얻지 못한 직업은 자물쇠로 잠겨있습니다.
     ![mypage-achievements.gif](readme/mypage-achievements.gif)
+
 - **박물관**
 
   - 3D NFT 전시관을 이용할 수 있으며 가장 등급이 높은 6개의 NFT가 액자에 걸려있습니다.
@@ -406,9 +408,11 @@ frontend
 - **판매 중단**
   - NFT 판매자는 판매 중지를 할 수 있습니다.
     ![Untitled](readme/Untitled_4.png)
+
 - **즉시구매와 가격 제안하기**
   - NFT를 구매하고 싶을 경우 판매자가 설정한 가격을 지불하여 즉시 구매 하거나 판매자에게 판매 가격을 제안할 수 있습니다. 제안 또한 즉시 구매와 마찬가지로 제안한 가격을 지불합니다.
     ![Untitled](readme/Untitled_5.png)
+
 - **제안 취소**
 
   - 본인이 가격 제안한 내역을 ❌ 버튼을 클릭하여 취소할 수 있습니다.
