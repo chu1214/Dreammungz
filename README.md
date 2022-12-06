@@ -401,25 +401,25 @@ frontend
 - **판매등록**
 
   - 즉시 구매 가격과 가격 제안 여부를 설정 한 후 판매 등록을 할 수 있습니다.
-    ![Untitled](readme/Untitled%203.png)
+    ![Untitled](readme/Untitled_3.png)
 
 - **판매 중단**
   - NFT 판매자는 판매 중지를 할 수 있습니다.
-    ![Untitled](readme/Untitled%204.png)
+    ![Untitled](readme/Untitled_4.png)
 - **즉시구매와 가격 제안하기**
   - NFT를 구매하고 싶을 경우 판매자가 설정한 가격을 지불하여 즉시 구매 하거나 판매자에게 판매 가격을 제안할 수 있습니다. 제안 또한 즉시 구매와 마찬가지로 제안한 가격을 지불합니다.
-    ![Untitled](readme/Untitled%205.png)
+    ![Untitled](readme/Untitled_5.png)
 - **제안 취소**
 
   - 본인이 가격 제안한 내역을 ❌ 버튼을 클릭하여 취소할 수 있습니다.
   - 취소 할 경우 가격 제안할 때 소비되었던 MUNG 토큰을 환불 받습니다.
-    ![Untitled](readme/Untitled%206.png)
+    ![Untitled](readme/Untitled_6.png)
 
 - **제안 채택**
 
   - 판매자의 경우 원하는 제안의 ✅ 버튼을 클릭해서 제안을 수락할 수 있습니다.
-    ![Untitled](readme/Untitled%207.png)
+    ![Untitled](readme/Untitled_7.png)
 
 - **환불 받기**
   - 마이 페이지 내의 제안 내역 탭에서 **환불 가능** 을 클릭하여 환불을 받을 수 있습니다.
-  ![Untitled](readme/Untitled%208.png)
+  ![Untitled](readme/Untitled_8.png)
