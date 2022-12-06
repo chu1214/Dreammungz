@@ -16,7 +16,7 @@
 
 ## 📅 **프로젝트 진행 기간**
 
-2022.08.29(월) ~ 2022.10.07(금) [****39****일간 진행] - SSAFY 7기 2학기 특화프로젝트
+2022.08.29(월) ~ 2022.10.07(금) [****39****일간 진행] - 🏆 SSAFY 7기 2학기 프로젝트 1위 🏆
 
 ---
 
@@ -337,22 +337,22 @@ frontend
 ### 로그인
 
 - 메타마스크 로그인을 진행하며 MUNG 토큰을 추가합니다.
-  ![login.gif](readme/login.gif)
+  <img src="readme/login.gif"  width="600" height="280"/>
 
 ### 메인 페이지
 
 - 튜토리얼 바로가기, 업데이트 내용 확인, 발행된 NFT 를 구경할 수 있습니다.
-  ![mainpage.gif](readme/mainpage.gif)
+  <img src="readme/mainpage.gif"  width="600" height="280"/>
 
 ### 게임 컨텐츠
 
 - 게임에 등장하는 모든 스토리와 삽화를 구경할 수 있습니다.
-  ![contents.gif](readme/contents.gif)
+  <img src="readme/contents.gif"  width="600" height="280"/>
 
 ### 튜토리얼
 
 - 로그인, 게임, 거래 튜토리얼을 통해 서비스를 이용하는데 필요한 정보를 제공합니다.
-  ![tutorial.gif](readme/tutorial.gif)
+  <img src="readme/tutorial.gif"  width="600" height="280"/>
 
 ### 게임
 
@@ -361,21 +361,21 @@ frontend
   - 아기 강아지 모드 - 100 MUNG 을 지불하여 스탯이 0인 상태로 시작합니다.
   - 웨딩 모드 - 부모 NFT의 능력치를 합산한 스탯을 가진채 시작합니다.
   
-    ![Untitled](readme/Untitled_1.png)
+    <img src="readme/Untitled_1.png"  width="600" height="280"/>
   
-    ![Untitled](readme/Untitled_2.png)
+    <img src="readme/Untitled_2.png"  width="600" height="280"/>
 
 - **게임 진행**
   - 게임을 진행하며 다양한 선택지를 선택하며 능력치를 올리거나 내리며 강아지를 육성할 수 있습니다.
   - 게임이 시작되면 자동으로 테마곡이 진행됩니다.
-    
-    ![game-play.gif](readme/game-play.gif)
+   
+    <img src="readme/game-play.gif"  width="600" height="280"/>
 
 - **게임 엔딩**
   - NFT 민팅을 진행하며 지금까지 거쳐온 스토리를 볼 수 있는 엔딩 크레딧이 있습니다.
   - 민팅이 완료되면 강아지 구경 탭으로 이동합니다.
     
-    ![game-ending.gif](readme/game-ending.gif)
+    <img src="readme/game-ending.gif"  width="600" height="280"/>
 
 ### 마이페이지
 
@@ -383,25 +383,25 @@ frontend
 
   - 본인이 소유한 NFT를 볼 수 있습니다.
     
-    ![mypage-mynft.gif](readme/mypage-mynft.gif)
+    <img src="readme/mypage-mynft.gif"  width="600" height="280"/>
 
 - **업적**
   - 현재까지 얻었던 직업과 최고 등급을 볼 수 있습니다.
   - 얻지 못한 직업은 자물쇠로 잠겨있습니다.
     
-    ![mypage-achievements.gif](readme/mypage-achievements.gif)
+    <img src="readme/mypage-achievements.gif"  width="600" height="280"/>
 
 - **박물관**
 
   - 3D NFT 전시관을 이용할 수 있으며 가장 등급이 높은 6개의 NFT가 액자에 걸려있습니다.
   - 본인 뿐만 아니라 다양한 사람들이 구경할 수 있습니다.
     
-    ![mypage-museum.gif](readme/mypage-museum.gif)
+    <img src="readme/mypage-museum.gif"  width="600" height="280"/>
 
 - **거래 & 제안 내역**
   - 본인이 구매 or 판매한 NFT 거래 기록 및 제안 기록을 볼 수 있습니다.
     
-    ![mypage-tradelist.png](readme/mypage-tradelist.png)
+    <img src="readme/mypage-tradelist.png"  width="600" height="280"/>
 
 ### 거래
 
@@ -412,32 +412,32 @@ frontend
 
   - 즉시 구매 가격과 가격 제안 여부를 설정 한 후 판매 등록을 할 수 있습니다.
     
-    ![Untitled](readme/Untitled_3.png)
+    <img src="readme/Untitled_3.png"  width="600" height="280"/>
 
 - **판매 중단**
   - NFT 판매자는 판매 중지를 할 수 있습니다.
     
-    ![Untitled](readme/Untitled_4.png)
+     <img src="readme/Untitled_4.png"  width="600" height="280"/>
 
 - **즉시구매와 가격 제안하기**
   - NFT를 구매하고 싶을 경우 판매자가 설정한 가격을 지불하여 즉시 구매 하거나 판매자에게 판매 가격을 제안할 수 있습니다. 제안 또한 즉시 구매와 마찬가지로 제안한 가격을 지불합니다.
     
-    ![Untitled](readme/Untitled_5.png)
-
+    <img src="readme/Untitled_5.png"  width="600" height="280"/>
+    
 - **제안 취소**
 
   - 본인이 가격 제안한 내역을 ❌ 버튼을 클릭하여 취소할 수 있습니다.
   - 취소 할 경우 가격 제안할 때 소비되었던 MUNG 토큰을 환불 받습니다.
     
-    ![Untitled](readme/Untitled_6.png)
-
+    <img src="readme/Untitled_6.png"  width="600" height="280"/>
+    
 - **제안 채택**
 
   - 판매자의 경우 원하는 제안의 ✅ 버튼을 클릭해서 제안을 수락할 수 있습니다.
     
-    ![Untitled](readme/Untitled_7.png)
+    <img src="readme/Untitled_7.png"  width="600" height="280"/>
 
 - **환불 받기**
   - 마이 페이지 내의 제안 내역 탭에서 **환불 가능** 을 클릭하여 환불을 받을 수 있습니다.
     
-    ![Untitled](readme/Untitled_8.png)
+    <img src="readme/Untitled_8.png"  width="600" height="280"/>
