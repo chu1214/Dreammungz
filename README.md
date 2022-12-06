@@ -300,6 +300,24 @@ frontend
 └── utils
 ```
 
+### Blockchain
+
+```markdown
+smart-contract
+├── contracts
+│   ├── MFT
+│   ├── MFTNego
+│   ├── MFTSale
+│   ├── MFTSaleFactory
+│   ├── Migrations
+│   └── SSFToken
+├── migragions
+│   └── 1_initial_migration
+├── package.json
+├── package-lock.json
+└── truffle-config
+```
+
 ---
 
 ## 👥 **팀원 주요 역할**
@@ -324,17 +342,10 @@ frontend
 
 ## **✔ 프로젝트 산출물**
 
-[포팅매뉴얼](https://www.notion.so/f2621668a9004c909bb7f6ecfb975649)
-
-[ERD](https://www.notion.so/ERD-e02b1dcb36e942e59e2a5be24786635f)
-
-[아키텍처](https://www.notion.so/2fb39de39f3f44dc9997ecdbdcf676b9)
-
-[기능 명세서](https://www.notion.so/7f6703cf10184b979436e2e5ab972132)
-
-[시연시나리오](https://www.notion.so/0e0632c9dc83497da428aaa058cd63f1)
-
-[와이어프레임](https://www.notion.so/2798cff61c5a4844917d29a3b317f3ae)
+[포팅매뉴얼](https://github.com/chu1214/Dreammungz/blob/main/exec/%ED%8F%AC%ED%8C%85%EB%A7%A4%EB%89%B4%EC%96%BC_%EB%93%9C%EB%A6%BC%EB%A9%8D%EC%A6%88.pdf)
+[ERD](https://github.com/chu1214/Dreammungz/blob/main/exec/ERD.PNG)
+[아키텍처](https://github.com/chu1214/Dreammungz/blob/main/exec/%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.PNG)
+[시연시나리오](https://github.com/chu1214/Dreammungz/blob/main/exec/%EC%8B%9C%EC%97%B0%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4.pdf)
 
 ---
 
