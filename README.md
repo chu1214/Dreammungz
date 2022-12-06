@@ -1,6 +1,12 @@
 # 🐶**드림멍즈- NFT 기반 게임 플랫폼**
 
 ![Untitled](readme/Untitled.png)
+![Untitled](readme/game-play.gif)
+
+- ERC-20 토큰을 지불해 게임을 진행하고 NFT(ERC-721) 토큰을 발급 받습니다.
+- NFT는 6가지 요소들로 구성되며, 총 8,000,000여 종류가 발급 가능합니다.
+- 발급 받은 NFT들을 사용해 게임을 진행하여 더 좋은 등급의 NFT를 획득할 수 있습니다.
+- 거래소에서 소유한 NFT를 판매하거나, 검색 및 필터링 기능을 통해 원하는 NFT를 구매할 수 있습니다.
 
 ## 📀 서비스 소개 영상
 [<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=YouTube&logoColor=white">](https://www.youtube.com/watch?v=eVtlH42FHsQ)
