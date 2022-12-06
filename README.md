@@ -2,9 +2,9 @@
 
 ![Untitled](readme/Untitled.png)
 
-## [**드림멍즈** 링크](https://j7a605.p.ssafy.io/)
+## 📀 서비스 소개 영상
+[<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=YouTube&logoColor=white">](https://www.youtube.com/watch?v=eVtlH42FHsQ)
 
-## **[UCC 링크 - 소개 영상 보기](https://www.youtube.com/watch?v=eVtlH42FHsQ)**
 
 ---
 
